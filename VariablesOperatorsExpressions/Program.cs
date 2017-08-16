@@ -66,16 +66,47 @@ namespace VariablesOperatorsExpressions
             Console.WriteLine(moneyNow - fridayMoney);
 
             int juliaMiles = 47;
-            int pranavMiles = juliaMiles - 30;
+            //int pranavMiles = juliaMiles - 30;
+            //Console.WriteLine(pranavMiles);
+            //Console.WriteLine(juliaMiles - 30);
+            int milesMore = 30;
+            int pranavMiles = juliaMiles - milesMore;
             Console.WriteLine(pranavMiles);
 
-            int boxPrice = 2;
+            int boxPrice = 3;
             int moneyAvailable = 12;
-            Console.WriteLine(moneyAvailable / boxPrice);
+            //Console.WriteLine(moneyAvailable / boxPrice);
+            int envelopes = moneyAvailable / boxPrice;
+            Console.WriteLine(envelopes);
 
             float saladPrice = 5.12f;
             float endBalance = 27.10f;
-            Console.WriteLine(saladPrice + endBalance);
+            //Console.WriteLine(saladPrice + endBalance);
+            float begBalance = saladPrice + endBalance;
+            Console.WriteLine(begBalance);
+
+            //331 students
+            //6 buses and 7 students traveled in cars
+            int total = 331;
+            int perBus = (total-7)/6;
+            Console.WriteLine(perBus);
+
+            int spent = (24 - 10);
+            int perPencil = (spent / 7);
+            Console.WriteLine(perPencil);
+
+            //3 consecutive numbers equal 72
+            //int sum = 72;
+            //Console.WriteLine((sum - 3) / 3);
+
+            //3 consecutive even numbers total 48
+            int sum = 48;
+            int smallestX =(sum - 6) / 3;
+            Console.WriteLine(smallestX);
+
+            int endBoxes = 22;
+            int begBoxes = (endBoxes * 2) - 7;
+            Console.WriteLine(begBoxes);
 
         }
     }
