@@ -60,6 +60,23 @@ namespace VariablesOperatorsExpressions
             int totalMoney = 40;
             int diaperPrice = 8;
             Console.WriteLine(totalMoney / diaperPrice);
+
+            int fridayMoney = 29;
+            int moneyNow = 41;
+            Console.WriteLine(moneyNow - fridayMoney);
+
+            int juliaMiles = 47;
+            int pranavMiles = juliaMiles - 30;
+            Console.WriteLine(pranavMiles);
+
+            int boxPrice = 2;
+            int moneyAvailable = 12;
+            Console.WriteLine(moneyAvailable / boxPrice);
+
+            float saladPrice = 5.12f;
+            float endBalance = 27.10f;
+            Console.WriteLine(saladPrice + endBalance);
+
         }
     }
 }
