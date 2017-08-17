@@ -88,23 +88,40 @@ namespace VariablesOperatorsExpressions
             //331 students
             //6 buses and 7 students traveled in cars
             int total = 331;
-            int perBus = (total-7)/6;
+            //int perBus = (total-7)/6;
+            int buses = 6;
+            int driven = 7;
+            int perBus = (total - driven) / buses;
             Console.WriteLine(perBus);
 
-            int spent = (24 - 10);
-            int perPencil = (spent / 7);
-            Console.WriteLine(perPencil);
+            float maxMoney = 24.0f;
+            int pencilsBought = 7;
+            float leftoverMoney = 10.0f;
+            Console.WriteLine((maxMoney - leftoverMoney) / pencilsBought);
+            //Console.WriteLine(perPencil);
 
             //3 consecutive numbers equal 72
             //int sum = 72;
-            //Console.WriteLine((sum - 3) / 3);
+            //int smallestX =(sum - 3) / 3;
+            //Console.WriteLine(smallestX);
+            int totalNumber = 72;
+            int midNumber = totalNumber / 3;
+            int maxNumber = midNumber + 1;
+            int minNumber = midNumber - 1;
+            Console.WriteLine(minNumber);
 
             //3 consecutive even numbers total 48
-            int sum = 48;
-            int smallestX =(sum - 6) / 3;
-            Console.WriteLine(smallestX);
+            //int sum = 48;
+            //int smallestX =(sum - 6) / 3;
+            //Console.WriteLine(smallestX);
+            int totalSum = 48;
+            int middleNumber = totalSum / 3;
+            int bigNumber = middleNumber + 2;
+            int smallNumber = middleNumber - 2;
+            Console.WriteLine(smallNumber);
 
             int endBoxes = 22;
+            int boxesBought = 7;
             int begBoxes = (endBoxes * 2) - 7;
             Console.WriteLine(begBoxes);
 
